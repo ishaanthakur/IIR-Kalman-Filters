@@ -5,8 +5,6 @@ function [X, f] = toofast_toofourier(x, Fs)
 %
 % X(k) is the Fourier transform of x(t) for frequency f(k)
 %
-% ECE 2200 Spring 2014
-% By Ricky Concepcion
 %
 
 N = length(x);
